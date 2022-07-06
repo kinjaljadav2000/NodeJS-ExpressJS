@@ -1,0 +1,7 @@
+function makeBricks(small, big, goal){
+  if(small+5*big<goal)
+    return false;
+  else if(goal%5>small)
+    return false;
+  return true;
+}
